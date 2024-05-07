@@ -137,7 +137,7 @@ export default function Home() {
             <Send />
           </button>
         </div>
-        <Input
+        {/* <Input
           type="file"
           onChange={(e) => onFileChange(e)}
           className="hidden"
@@ -153,12 +153,12 @@ export default function Home() {
           }}
         >
           <Upload className={cn("w-[20px]")} />
-        </Button>
+        </Button> */}
       </div>
       <div className="flex gap-3 items-center">
         <Card
           className={cn(
-            "p-5 whitespace-normal min-w-[320px] sm:w-[500px] md:min-w-[600px] min-h-[150px] max-h-[400px] lg:min-w-[700px] overflow-y-scroll"
+            "p-5 whitespace-normal min-w-[320px] sm:w-[500px] md:min-w-[600px] min-h-[300px] max-h-[600px] lg:min-w-[700px] overflow-y-scroll"
           )}
         >
           <div className={`${styles.textwrapper}`}>
